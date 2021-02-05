@@ -46,5 +46,5 @@ if (port == null || port == ''){
 }
 
 app.listen(port , ()=>{
-    console.log('server is running at port: 3200')
+    console.log(`server is running at port: ${port}`)
 })
